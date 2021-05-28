@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FavoriteRecipesApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Spring boot");
 		SpringApplication.run(FavoriteRecipesApplication.class, args);
 	}
 
